@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+out2/
+out2_bak/
+.oldnext_*/
+
+# typescript incremental build info
+tsconfig.tsbuildinfo
+
+# logs
+*.log
+
+# next generated
+next-env.d.ts
+
+# env files
+.env
+.env*.local
+
+# os
+.DS_Store
+Thumbs.db
+
+# workbuddy project data (tool metadata, not source)
+.workbuddy/

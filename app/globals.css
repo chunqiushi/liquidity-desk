@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 浅色主题（规范默认）：背景 #F7F8FA / 卡片 #FFFFFF / 主文字 #1F2937 / 次文字 #6B7280
+     主色 #1F4E79 / 改善 #059669 / 风险 #DC2626 / 强调 #F59E0B */
+  --bg: 247 248 250;          /* #F7F8FA */
+  --panel: 255 255 255;       /* #FFFFFF */
+  --panel-2: 241 243 246;     /* #F1F3F6 */
+  --border: 226 231 235;      /* #E2E7EB */
+  --text: 31 41 55;           /* #1F2937 */
+  --text-muted: 107 114 128;  /* #6B7280 */
+  --accent: 31 78 121;        /* #1F4E79 */
+  --accent-fg: 255 255 255;
+  --pos: 5 150 105;           /* #059669 改善 */
+  --neg: 220 38 38;           /* #DC2626 风险 */
+  --warn: 245 158 11;         /* #F59E0B 强调 */
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Menlo, monospace;
+}
+
+.dark {
+  --bg: 11 14 20;             /* #0B0E14 近黑海军蓝 */
+  --panel: 18 22 32;          /* #121620 卡片 */
+  --panel-2: 26 33 48;        /* #1A2130 内嵌面 */
+  --border: 35 43 56;         /* #232B38 发丝边框 */
+  --text: 230 233 239;        /* #E6E9EF 主文字 */
+  --text-muted: 139 151 168;  /* #8B97A8 次文字 */
+  --accent: 56 189 248;       /* #38BDF8 青蓝强调 */
+  --accent-fg: 11 14 20;      /* 深底文字，保证青蓝按钮对比度 */
+  --pos: 16 185 129;          /* #10B981 */
+  --neg: 248 113 113;         /* #F87171 */
+  --warn: 251 191 36;         /* #FBBF24 */
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border));
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--text-muted));
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@layer components {
+  .card {
+    @apply bg-panel border border-border rounded-lg;
+  }
+  .card-soft {
+    @apply bg-panel-2 border border-border/60 rounded-lg;
+  }
+  .card-head {
+    @apply flex items-center justify-between px-4 py-3 border-b border-border;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-2xs font-medium;
+  }
+  .section-title {
+    @apply text-sm font-semibold tracking-wide uppercase text-muted;
+  }
+}

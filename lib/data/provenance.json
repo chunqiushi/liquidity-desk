@@ -1,0 +1,326 @@
+{
+ "CN_CPI_YOY": {
+  "status": "OK",
+  "source": "NBS via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_CPI_MOM": {
+  "status": "OK",
+  "source": "NBS via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_PPI_YOY": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_GDP_YOY": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_PMI_MFG": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_PMI_SVC": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_M2_YOY": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_M1_YOY": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_M0_YOY": {
+  "status": "OK",
+  "source": "NBS/PBC via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_curve": {
+  "status": "OK (seeded)",
+  "source": "ChinaBond via akshare (seed fallback)",
+  "asOf": "2026-09-29",
+  "note": "live fetch throttled; used verified seed"
+ },
+ "CN_DR007": {
+  "status": "OK",
+  "source": "CFETS fixing via akshare",
+  "asOf": "2026-09-29"
+ },
+ "CN_SHIBOR_3M": {
+  "status": "OK",
+  "source": "Shibor (NIFC) via akshare",
+  "asOf": "2026-09-29"
+ },
+ "US_EFFR": {
+  "status": "OK",
+  "source": "FRED:DFF",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_IORB": {
+  "status": "OK",
+  "source": "FRED:IORB",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_ON_RRP": {
+  "status": "OK",
+  "source": "FRED:RRPONTSYD",
+  "asOf": "2026-09-29",
+  "note": "reported $bn; residual facility drained post-runoff, quarter-end spikes"
+ },
+ "US_RESERVES": {
+  "status": "OK",
+  "source": "FRED:WRESBAL",
+  "asOf": "2026-09-29",
+  "note": "converted from FRED millions"
+ },
+ "US_TGA": {
+  "status": "OK",
+  "source": "FRED:WTREGEN",
+  "asOf": "2026-09-29",
+  "note": "converted from FRED millions"
+ },
+ "US_FED_ASSETS": {
+  "status": "OK",
+  "source": "FRED:WALCL",
+  "asOf": "2026-09-29",
+  "note": "converted from FRED millions"
+ },
+ "US_LIQ": {
+  "status": "OK",
+  "source": "FRED",
+  "asOf": "2026-09-29",
+  "note": "6/6 series"
+ },
+ "US_curve": {
+  "status": "OK",
+  "source": "U.S. Treasury",
+  "asOf": "09/29/2026"
+ },
+ "US_10Y": {
+  "status": "OK",
+  "source": "FRED:DGS10",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_SOFR": {
+  "status": "OK",
+  "source": "FRED:SOFR",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_2Y": {
+  "status": "OK",
+  "source": "FRED:DGS2",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_30Y": {
+  "status": "OK",
+  "source": "FRED:DGS30",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "EU_10Y": {
+  "status": "OK",
+  "source": "FRED:IRLTLT01DEM156N",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "JP_10Y": {
+  "status": "OK",
+  "source": "FRED:IRLTLT01JPM156N",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "GB_10Y": {
+  "status": "OK",
+  "source": "FRED:IRLTLT01GBM156N",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "HK_10Y": {
+  "status": "FAIL",
+  "source": "FRED:IRLTLT01HKM156N",
+  "asOf": "2026-09-29",
+  "note": "all retries failed"
+ },
+ "CH_10Y": {
+  "status": "OK",
+  "source": "FRED:IRLTLT01CHM156N",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "AU_10Y": {
+  "status": "OK",
+  "source": "FRED:IRLTLT01AUM156N",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_EUR": {
+  "status": "OK",
+  "source": "FRED:DEXUSEU",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_JPY": {
+  "status": "OK",
+  "source": "FRED:DEXJPUS",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_GBP": {
+  "status": "OK",
+  "source": "FRED:DEXUSUK",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_CHF": {
+  "status": "OK",
+  "source": "FRED:DEXSZUS",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_AUD": {
+  "status": "OK",
+  "source": "FRED:DEXUSAL",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_HKD": {
+  "status": "OK",
+  "source": "FRED:DEXHKUS",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX_CNY": {
+  "status": "OK",
+  "source": "FRED:DEXCHUS",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "FX": {
+  "status": "OK",
+  "source": "FRED",
+  "asOf": "2026-09-29",
+  "note": "7/7 currencies"
+ },
+ "INDICES": {
+  "status": "OK",
+  "source": "East Money",
+  "asOf": "2026-09-29",
+  "note": "8 indices"
+ },
+ "LHB": {
+  "status": "OK",
+  "source": "East Money LHB",
+  "asOf": "20260929",
+  "note": "370 rows"
+ },
+ "FUTURES": {
+  "status": "OK",
+  "source": "Sina via akshare",
+  "asOf": "2026-09-29",
+  "note": "10 contracts"
+ },
+ "US_CPI_YOY": {
+  "status": "OK",
+  "source": "FRED:CPIAUCSL",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_GDP_YOY": {
+  "status": "OK",
+  "source": "FRED:GDP",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "US_UNEMP": {
+  "status": "OK",
+  "source": "FRED:UNRATE",
+  "asOf": "2026-09-29",
+  "note": ""
+ },
+ "CN_MACRO": {
+  "status": "OK",
+  "source": "NBS via akshare",
+  "asOf": "2026-09-29",
+  "note": "8 indicators"
+ },
+ "INTL_MACRO": {
+  "status": "OK",
+  "source": "akshare/FRED",
+  "asOf": "2026-09-29",
+  "note": "10 points across 7 economies"
+ },
+ "EU_ESTR": {
+  "status": "OK",
+  "source": "Wind:M0341913",
+  "asOf": "2026-09-28",
+  "note": "欧元短期利率(ESTR) · 万得 Wind 金融数据服务"
+ },
+ "JP_TONA": {
+  "status": "OK",
+  "source": "Wind:M0341928",
+  "asOf": "2026-09-29",
+  "note": "东京隔夜平均利率(TONAR) · 万得 Wind 金融数据服务"
+ },
+ "GB_SONIA": {
+  "status": "OK",
+  "source": "Wind:M0341927",
+  "asOf": "2026-09-25",
+  "note": "英镑隔夜指数均值(SONIA) · 万得 Wind 金融数据服务"
+ },
+ "CH_SARON": {
+  "status": "OK",
+  "source": "Wind:M0341924",
+  "asOf": "2026-09-28",
+  "note": "瑞士法郎SARON · 万得 Wind 金融数据服务"
+ },
+ "AU_CASH": {
+  "status": "FAIL",
+  "source": "Wind:G1600268 (pending)",
+  "asOf": "2026-09-30",
+  "note": "Wind 账户积分余额不足；M0000178(隔夜利率)数据亦止于2026-03-18。改用每日更新的 G1600268（货币市场目标利率），积分恢复后重跑 scripts/fetch_wind_data.py 即生效。当前以 Mock 呈现。"
+ },
+ "CN_REPO_7D": {
+  "status": "OK",
+  "source": "Wind:M0041371",
+  "asOf": "2026-09-29",
+  "note": "中国:逆回购利率:7天 · 万得 Wind 金融数据服务"
+ },
+ "CN_MLF": {
+  "status": "FAIL",
+  "source": "Wind:M0329545",
+  "asOf": "2025-02-25",
+  "note": "Wind 中 MLF 序列在 PBoC 2024-2025 改革后无续更（日度 M0329545 止于 2025-02-25，月度 M5543249 为空），属真实数据缺口，保持 Mock。"
+ },
+ "CNH_HIBOR_3M": {
+  "status": "OK",
+  "source": "Wind:M0062941",
+  "asOf": "2026-09-29",
+  "note": "CNH HIBOR:3个月 · 万得 Wind 金融数据服务"
+ },
+ "CN_LPR_1Y": {
+  "status": "OK",
+  "source": "Wind:M0096870",
+  "asOf": "2026-09-20",
+  "note": "中国:贷款市场报价利率(LPR):1年 · 万得 Wind 金融数据服务"
+ },
+ "CN_LPR_5Y": {
+  "status": "OK",
+  "source": "Wind:M0331299",
+  "asOf": "2026-09-20",
+  "note": "中国:贷款市场报价利率(LPR):5年 · 万得 Wind 金融数据服务"
+ }
+}
